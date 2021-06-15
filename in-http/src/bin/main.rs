@@ -1,5 +1,5 @@
 use warp::{Filter, self};
-use in_data::{models::user::*, graph::*};
+use in_data::{models::user::*, datatypes::graph::*};
 
 #[tokio::main]
 async fn main() {

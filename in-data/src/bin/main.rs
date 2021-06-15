@@ -1,6 +1,6 @@
 use chrono::Utc;
-use incore::graph::*;
-use incore::user::*;
+use in_data::datatypes::graph::*;
+use in_data::models::user::*;
 
 pub fn main() {
     let g = create_users();

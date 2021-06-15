@@ -1,5 +1,7 @@
-pub mod graph;
+pub mod datatypes;
 pub mod models;
+pub mod types;
+pub mod prelude;
 
 use std::collections::BTreeMap;
 use chrono::{DateTime, Utc};

@@ -1,13 +1,18 @@
 [package]
-name = "api"
+name = "in-db"
 version = "0.1.0"
 authors = ["clpi <clp@clp.is>"]
 edition = "2018"
+default-run = "in_db"
+
+[lib]
+name = "in_db"
+path = "src/lib.rs"
+
+[[bin]]
+name = "in_db"
+path = "src/bin/in_db.rs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-in-data = { path = "./in-data" }
-in-http = { path = "./in-http" }
-in-cloud = { path = "./in-cloud" }
-in-db = { path = "./in-db" }

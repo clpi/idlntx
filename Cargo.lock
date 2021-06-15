@@ -111,6 +111,7 @@ version = "0.1.0"
 dependencies = [
  "in-cloud",
  "in-data",
+ "in-db",
  "in-http",
 ]
 
@@ -930,6 +931,10 @@ dependencies = [
  "chrono",
  "petgraph",
 ]
+
+[[package]]
+name = "in-db"
+version = "0.1.0"
 
 [[package]]
 name = "in-http"
