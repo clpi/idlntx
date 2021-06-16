@@ -1,0 +1,18 @@
+[package]
+name = "in-cli"
+version = "0.1.0"
+authors = ["clpi <clp@clp.is>"]
+edition = "2018"
+default-run = "in_cli"
+
+[lib]
+name = "in_cli"
+path = "src/lib.rs"
+
+[[bin]]
+name = "in_cli"
+path = "src/bin/in_cli.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
